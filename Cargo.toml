@@ -1,0 +1,11 @@
+[package]
+name = "rustay"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.3", features = ["full"] }
+tracing = "0.1.21"
+tracing-subscriber = "0.2.15"
+futures = "0.3.8"
+owning_ref = "0.4.1"
